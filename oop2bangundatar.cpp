@@ -24,6 +24,10 @@ class bangunDatar{
     void display(){
         cout << "Panjangnya = " << panjang << endl;
         cout << "Lebarnya = " << lebar << endl;
-        cout << "Luasnya = " << hitungluas() << endl; 
+        cout << "Luasnya = " << hitungLuas() << endl; 
     }
 };
+
+int main() {
+    bangunDatar pp; //deklarasi objek pp dari class bangunDatar
+}
